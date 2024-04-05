@@ -10,8 +10,8 @@ After creating the .jar file using the terminal command: mvn package (or mvn pac
 
 <br>
 Authenticate to Github with the command: sudo docker login ghcr.io -u <username> -p <token_pwd>
-Build the Docker container for our Java app with the command: sudo docker build -t ghcr.io/your_username/your_container_name:1 .
-Push with the command: sudo docker push ghcr.io/your_username/your_container_name:1
+Build the Docker container for our Java app with the command: sudo docker build -t ghcr.io/your_username/your_image_name:1 .
+Push with the command: sudo docker push ghcr.io/your_username/your_image_name:1
 
 Now our Docker image is located in the Github packages.
 <br>
